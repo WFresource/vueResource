@@ -19,10 +19,6 @@
 
 <script>
   import { requestLogin } from '../api/api';
-  import Fingerprint from 'fingerprintjs';
-  console.log('Fingerprint',Fingerprint)
-  var fingerprintjs = new Fingerprint().get();
-  console.log('fingerprint',fingerprintjs)
   export default {
     data() {
       return {
