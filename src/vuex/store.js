@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import {constantRouterMap,asyncRouterMap} from '../routes'
+import {constantRouterMap,asyncRouterMap} from '../router/routes'
 import { getUserInfo } from '../api/api'
 import _ from 'lodash';
 Vue.use(Vuex)

@@ -3,8 +3,8 @@
 		<el-header height="50px">
 			<div class="logo">EXAM</div>
 			<el-row id="nav-header">
-				<template v-for="item in routes">
-					<el-col :span="2" :offset="item.path === '/index' ? 1 : 0" :key="item.path">
+				<template v-for="item in menus">
+					<el-col :span="4" :key="item.path">
 						<router-link :to="item.path">{{item.name}}</router-link>
 					</el-col>
 				</template>
@@ -23,7 +23,23 @@
 	export default {
 		data() {
 			return {
-				routes: _.find(store.getters.addRouters, { path: '/' }).children,
+				menus: [{
+		            path: '/index',
+		            name: '推荐名单'
+		        },
+		        {
+		            path: '/campaign/form',
+		            name: '发布活动'
+		        }, {
+		            path: '/campaign/list',
+		            name: '我的任务'
+		        }, {
+		            path: '/chart/index',
+		            name: '营销效果'
+		        }, {
+		            path: '/about',
+		            name: '关于我们'
+		        }],
 			}
 		},
     components: {

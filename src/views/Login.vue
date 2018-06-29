@@ -1,7 +1,6 @@
 <template>
   <div class="login-page">
     <el-form :model="loginForm" :rules="rules" ref="loginForm" label-position="left" label-width="0px" class="login-container">
-      <div class="title"><img src="/static/images/logo.png"></div>
       <el-form-item prop="account">
         <el-input type="text" v-model="loginForm.account" auto-complete="off" placeholder="请输入账号"></el-input>
         <div class="el-input-myprepend"><i class="iconfont icon-user-larger"></i></div>

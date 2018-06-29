@@ -1,6 +1,6 @@
 <template>
 	<section>
-		main
+		关于我们
 	</section>
 </template>
 

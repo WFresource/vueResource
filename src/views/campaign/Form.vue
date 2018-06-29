@@ -1,6 +1,6 @@
 <template>
 	<section>
-		main
+		camp-form
 	</section>
 </template>
 

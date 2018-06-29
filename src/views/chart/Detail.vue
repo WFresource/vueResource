@@ -1,6 +1,6 @@
 <template>
 	<section>
-		main
+		chart-detail
 	</section>
 </template>
 

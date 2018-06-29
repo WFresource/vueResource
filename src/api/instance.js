@@ -1,6 +1,6 @@
 import axios from 'axios'
 import store from '../vuex/store'
-import router from '../routes'
+import router from '../router'
 
 //设置全局axios默认值
 axios.defaults.timeout = 5000; //5000的超时验证

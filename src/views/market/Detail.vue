@@ -1,6 +1,6 @@
 <template>
 	<section>
-		main
+		mark-detail
 	</section>
 </template>
 
